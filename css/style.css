@@ -7,9 +7,39 @@ html{
     box-sizing: border-box;
 }
 body {
-    background: #151515;
-    color: #fff;
+    background: #151515 url('../images/image1 (1).jpg') no-repeat fixed left bottom;
+    background-size: cover;
+    color: rgb(231, 231, 231);
     text-align: center;
     font-size: 1.4rem;
     font-family: Meiryo, sans-serif;
+}
+.header {
+    padding: 120px 50px 50px ;
+    
+}
+.site-title-sub {
+    margin: 0 0 30px;
+    letter-spacing: 2px;
+    font-size: 3.3rem;
+}
+.site-title-sub::before,
+.site-title-sub::after {
+    content: '';
+    display: inline-block;
+    width: 130px;
+    height: 2px;
+    margin: 0 30px;
+    background-color: rgb(231, 231, 231);
+    vertical-align: middle;
+
+}
+.site-title {
+    margin: 60px 0 40px;
+    font-size: 9.5rem;
+}
+.site-description {
+    margin: 30px 0 40px;
+    letter-spacing: 2px;
+    font-size: 2.2rem;
 }
