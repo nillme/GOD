@@ -121,3 +121,45 @@ body {
     text-align: center;
     line-height: 2.5;
 }
+.gallery {
+    padding: 50px 50px;
+    background-color: rgb(207, 185, 212);
+    color: #333;
+}
+.gallery-text {
+    text-align: center;
+    margin:10px 0 0 0 ;
+    line-height: 2.5;
+}
+.works-wrapper {
+    display: table;
+    width: 100%;
+    margin-top: 50px;
+    table-layout: fixed;
+}
+.works-box {
+    display: table-cell;
+}
+.work-wrapper {
+    display: table;
+    width: 100%;
+    margin-top: 50px;
+    table-layout: fixed;
+}
+.video-wrapper {
+    display: table;
+    width: 100%;
+    margin-top: 50px;
+    table-layout: fixed;
+}
+.work-box {
+    display: table-cell;
+}
+.illust {
+    display: block;
+    width: 100%;
+}
+iframe {
+    display: block;
+    width: 100%;
+}
