@@ -131,6 +131,12 @@ body {
     margin:10px 0 0 0 ;
     line-height: 2.5;
 }
+.workx-wrapper {
+    display: table;
+    width: 100%;
+    margin-top: 50px;
+    table-layout: fixed;
+}
 .works-wrapper {
     display: table;
     width: 100%;
@@ -155,11 +161,33 @@ body {
 .work-box {
     display: table-cell;
 }
-.illust {
-    display: block;
-    width: 100%;
+.request {
+    padding: 50px 50px;
+    background-color: #333;
 }
-iframe {
-    display: block;
+.graph-wrapper {
+    display: table;
     width: 100%;
+    margin: 50px;
+    table-layout:fixed;
+}
+.ryo-box {
+    display: table-cell;
+}
+.request-text {
+    text-align: center;
+    margin:10px 0 0 0 ;
+    line-height: 2.5;
+}
+.request-wrapper {
+    display: table;
+    width: 100%;
+    margin-top: 50px;
+    table-layout: fixed;
+}
+.rq-box {
+    display:table-cell;
+    text-align:center;
+    margin:10px 0 0 0 ;
+    line-height: 2.5;
 }
