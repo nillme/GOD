@@ -1,4 +1,41 @@
 @charset "UTF-8";
+@media (max-width: 768px){
+    .site-title-sub::before,
+    .site-title-sub::after {
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+    }
+    .site-title-sub {
+        font-size: 1.7rem;
+    }
+    .site-title {
+        margin-top: 35px;
+        font-size: 5rem;
+    }
+    .header {
+        padding-top: 60px;
+    }
+    .button:hover {
+        opacity: 1;
+    }
+    .heading {
+        font-size: 2.5rem;
+    }
+    .body {
+        font-size: 1.3rem;
+    }
+    .this-text {
+        line-height: 1.8;
+    }
+    .me-text {
+        line-height: 1.8;
+    }
+    .gallery-text {
+        line-height: 1.8;
+    }
+    
+}
 
 html{
     font-size: 62.5%;
@@ -190,4 +227,39 @@ body {
     text-align:center;
     margin:10px 0 0 0 ;
     line-height: 2.5;
+}
+.contact {
+    padding: 50px 50px;
+    background-color: rgb(207, 185, 212);
+    color: #333;
+}
+.social-wrapper {
+    display: table;
+    width: 80%;
+    margin: 50px auto 0;
+    table-layout: fixed;
+}
+.social-box {
+    display: table-cell;
+}
+.social-icon {
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    color: #3a89ad;
+    font-size: 8rem;
+    line-height: 142px;
+}
+.social-title {
+    margin: 0 20px 20px;
+    font-size: 2rem;
+}
+.social-text {
+    text-align: center;
+    margin:10px 0 0 0 ;
+    line-height: 2.5;
+}
+.footer {
+    padding: 12px;
+    font-size: 1.3rem;
 }
